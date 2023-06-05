@@ -1,2 +1,15 @@
-
 /* Your CSS Code here. */
+.flexbox{
+	border:1px solid black;
+	height:500px;
+	width:500px;
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+.items{
+	border:1px solid green;
+	height:100px;
+	width:100px;
+	margin:2px;
+}

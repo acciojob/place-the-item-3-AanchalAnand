@@ -1,15 +1,22 @@
+
 /* Your CSS Code here. */
-.flexbox{
-	border:1px solid black;
-	height:500px;
-	width:500px;
-	display:flex;
-	justify-content:space-evenly;
-	flex-wrap:wrap;
+.box1{
+	background-color: red;
 }
-.items{
-	border:1px solid green;
-	height:100px;
-	width:100px;
-	margin:2px;
+.box2{
+	background-color: green;
+}
+.box3{
+	background-color: blue;
+}
+.box{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	font-size: 30px;
+}
+.holder{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
